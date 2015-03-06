@@ -1,4 +1,9 @@
+//**TODO**
+//refactor regex to handle ',' & '.' etc....
+
 function isPalindrome(word) {
+	//prepping the input, lowercase, remove spaces, and turn into an array with split()
+
 	var input = word.toLowerCase().replace(/ +/g, "").split("");
 
 	while (input.length-1 > 0) {
