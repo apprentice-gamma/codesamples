@@ -12,7 +12,7 @@ var test8 = isPalindrome("ta.Co.@.c@a%T!") === true;
 
 function isPalindrome(word) {
 	//prepping the input, lowercase, remove spaces/punctuation, and turn into an array with split()
-	var input = word.toLowerCase().replace(/\W/g, "").split("");
+	var input = word.replace(/\W/g, "").toLowerCase().split("");
 	while (input.length-1 > 0) {
 		if (input.shift() !== input.pop()) return false; 
 	} 
