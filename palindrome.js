@@ -24,7 +24,7 @@ var test7 = isPalindrome("Red root put up to order") === true;
 function runTests() {
 	var tests = [test1, test2, test3, test4, test5, test6, test7];
 	for(i=0; i < tests.length; i++) {
-		console.log("\n " + "Test: " + i + " is " + tests[i]);
+		console.log("\n " + "Test: " + (i+1) + " is " + tests[i]);
 	}
 }
 
