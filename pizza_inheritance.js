@@ -1,4 +1,4 @@
-unction Pizza(type){
+function Pizza(type){
 	this._pizzaType = type;
 }
 
